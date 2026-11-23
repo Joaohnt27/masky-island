@@ -1,0 +1,22 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: New game opens beach introduction after fade
+PASS: Beach header removed during introduction
+PASS: Removed bottom HUD remains hidden
+PASS: Introduction locks movement without starting NPC mission or granting map
+PASS: First thought asks why character is here
+PASS: Illustrated frame and player portrait assigned
+PASS: Pointer reaches IntroductionContinue
+PASS: Pause hides introduction and prevents advancement
+PASS: Resume restores same thought
+PASS: Second thought establishes amnesia
+PASS: Third thought points to house
+PASS: Final thought sets destination before dismissing
+PASS: Final click records introduction and releases player
+PASS: Completing introduction preserves NPC mission and map gates
+PASS: Beach remains free of objective header after introduction
+PASS: Returning to beach does not replay introduction
+PASS: New game resets introduction
+PASS: NPC dialogue still opens independently
+PASS: NPC still starts mission and delivers map after final line
+ALL PASSED

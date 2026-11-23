@@ -1,0 +1,51 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Player introduction opens
+PASS: Beach: dialogue opens
+PASS: Beach: project fonts assigned
+PASS: Beach: matching coastal banner
+PASS: Beach: speaker portrait visible
+PASS: Pointer reaches IntroductionContinue
+PASS: Beach: line fits banner 1
+PASS: Beach: line fits banner 2
+PASS: Beach: line fits banner 3
+PASS: Beach: line fits banner 4
+PASS: Beach: line fits banner 5
+PASS: Beach: dialogue closes and releases lock
+PASS: Beach: movement restored
+PASS: House: dialogue opens
+PASS: House: project fonts assigned
+PASS: House: matching coastal banner
+PASS: House: speaker portrait visible
+PASS: Pointer reaches IntroductionContinue
+PASS: House: line fits banner 1
+PASS: House: dialogue closes and releases lock
+PASS: House: movement restored
+PASS: Cave: dialogue opens
+PASS: Cave: project fonts assigned
+PASS: Cave: matching coastal banner
+PASS: Cave: speaker portrait visible
+PASS: Pointer reaches IntroductionContinue
+PASS: Cave: line fits banner 1
+PASS: Cave: dialogue closes and releases lock
+PASS: Cave: movement restored
+PASS: Island: dialogue opens
+PASS: Island: project fonts assigned
+PASS: Island: matching coastal banner
+PASS: Island: speaker portrait visible
+PASS: Pointer reaches IntroductionContinue
+PASS: Island: line fits banner 1
+PASS: Island: line fits banner 2
+PASS: Island: line fits banner 3
+PASS: Island: line fits banner 4
+PASS: Island: line fits banner 5
+PASS: Island: line fits banner 6
+PASS: Island: line fits banner 7
+PASS: Island: line fits banner 8
+PASS: Island: line fits banner 9
+PASS: Island: line fits banner 10
+PASS: Island: dialogue closes and releases lock
+PASS: Island: movement restored
+PASS: NPC starts mission and gives map after final line
+PASS: NPC panel switches to player portrait for personal thought
+ALL PASSED

@@ -1,0 +1,108 @@
+EDITOR NOTE: startup search index exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Splash starts without nickname or gameplay
+PASS: Settings bootstrap exists in Splash
+PASS: Splash has Canvas particles without blocking input
+PASS: Click waits for animation before changing scenes
+PASS: Splash click animation completes before MainMenu
+PASS: Splash leads to nickname
+PASS: Original video and RenderTexture remain assigned
+PASS: Nickname starts covered by fade-in
+PASS: Nickname fade completes while time is paused and releases input
+PASS: Cancel button starts one transition to Splash
+PASS: Cancel nickname returns to Splash
+PASS: Cancel does not save unfinished nickname
+PASS: Splash can reopen nickname after cancelling
+PASS: Continue keeps nickname visible during fade-out
+PASS: Repeated confirmation and Play cannot bypass intro
+PASS: Video panel opens only after nickname is fully covered
+PASS: Intro completion opens menu without starting gameplay
+PASS: Menu fade-in finishes and restores interaction
+PASS: Credits button loads saved credits scene
+PASS: Credits retains editable nonempty text
+PASS: Credits scroll upward with paused game time
+PASS: Back from credits restores menu without nickname or intro
+PASS: Credits return automatically after final line
+PASS: Settings panel belongs to MainMenu scene
+PASS: Settings opening fades out menu before switching panels
+PASS: Settings button opens panel
+PASS: Settings retains editable scene graphics regardless of object names
+PASS: Audio sliders apply centralized volumes
+PASS: Direct video audio respects master and music
+PASS: Future music AudioSource respects category
+PASS: Future SFX AudioSource respects category
+PASS: Settings closing keeps panel visible during fade-out
+PASS: Back returns to same menu without reloading
+PASS: Audio preferences saved
+PASS: Resolution choices populated from display/current window
+PASS: Video preferences applied and persisted
+PASS: Settings reload stored preferences
+PASS: Play keeps menu visible while quick fade blocks repeated input
+PASS: Concurrent scene transitions are rejected
+PASS: Cave loads under opaque cover
+PASS: Quick fade completes while paused and releases destination controls
+PASS: Play enters Cave after intro and menu
+PASS: Cave has no mining components
+PASS: Settings survive scene change
+PASS: Cave starts with inactive singletons
+PASS: HUD and timer hidden before mission
+PASS: Money rejected before mission
+PASS: Cave starts with pause and end panels hidden
+PASS: Cave ESC pauses pre-mission gameplay
+PASS: Cave pause opens reused settings without resuming
+PASS: ESC from settings returns to pause only
+PASS: Continue resumes Cave
+PASS: Existing Cave door starts quick transition and blocks movement
+PASS: Door fade reveals Island and restores movement
+PASS: Singletons survive Cave to Island
+PASS: No duplicate managers
+PASS: Mission waits for final dialogue completion
+PASS: Dialogue starts 20 minute mission with zero money
+PASS: Money HUD updates immediately
+PASS: Dialogue releases movement
+PASS: Repeated start does not reset timer
+PASS: Island ESC freezes mission timer
+PASS: Island ESC resumes timer
+PASS: Returning to Cave still has no mining area
+PASS: Island has exactly one mining spot
+PASS: HUD and timer restored after scene change
+PASS: Entering mining area shows panel
+PASS: Leaving mining area hides panel
+PASS: Mining locks movement and repeated button clicks
+PASS: Progress advances with no early reward
+PASS: Pause freezes mining without cancellation, parallel attempt or reward
+PASS: Settings Back preserves mining pause
+PASS: One reward delivered after three seconds
+PASS: Mining restores controls and displays result
+PASS: Reward updates global HUD
+PASS: Configurable failure gives no money
+PASS: Reward distribution 1
+PASS: Reward distribution 2
+PASS: Reward distribution 5
+PASS: Reward distribution 10
+PASS: Reward distribution 25
+PASS: Reward distribution 50
+PASS: Reward distribution 75
+PASS: Reward distribution 100
+PASS: 240 + 25 wins at 265
+PASS: Victory freezes timer and rejects further rewards/mining
+PASS: Victory feedback visible
+PASS: Victory blocks gameplay/pause and shows title and actual coins
+PASS: Timeout ends at zero with no victory
+PASS: Timeout cancels mining and blocks gameplay without reward
+PASS: Game over excludes pause and shows end panel
+PASS: Game over rejects money, victory and repeated start
+PASS: Forced exit cancels mining
+PASS: Scene change cancels mining without late reward
+PASS: Returning dialogue uses persistent manager without resetting
+PASS: Still one GameManager after round trip
+PASS: Restart after victory resets all persistent state and returns to Cave
+PASS: Restart restores hidden pre-mission UI
+PASS: Cave also shows game over panel
+PASS: Restart after game over starts clean
+PASS: Pause Main Menu immediately restores time and cancels/reset current attempt
+PASS: Return from gameplay opens main menu with pause unavailable
+PASS: End game Main Menu resets session
+PASS: Restart and menu exits never duplicate managers
+PASS: Splash cannot pause
+ALL PASSED

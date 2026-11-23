@@ -1,0 +1,37 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: New session has no memories or active mission
+PASS: Cannot obtain memory before NPC dialogue
+PASS: Existing scroll opens puzzle and locks movement; symbols unavailable before mission
+PASS: Direct button callbacks cannot bypass mission prerequisite
+PASS: Closing scroll releases movement
+PASS: Mission waits for final introductory line
+PASS: NPC starts mission and restores movement
+PASS: All three authored buttons are available during mission
+PASS: All three clue lines are saved correctly
+PASS: Wrong first symbol resets attempt with visible feedback
+PASS: Correct first symbol advances sequence
+PASS: Pause prevents symbol input and closing behind pause panel
+PASS: Resume retains scroll movement lock
+PASS: Resume preserves partial sequence
+PASS: Reopening unfinished puzzle resets partial attempt
+PASS: Wrong later symbol also resets without reward
+PASS: Sun Moon Star grants first memory without ending the game
+PASS: Solved UI reveals memory and disables symbols
+PASS: Repeated clicks and reward calls never duplicate memory
+PASS: Text fits: ScrollTitle
+PASS: Text fits: ScrollText
+PASS: Text fits: Text (TMP)
+PASS: Text fits: Label
+PASS: Text fits: Label
+PASS: Text fits: Label
+PASS: Text fits: PuzzleFeedback
+PASS: NPC acknowledges recovered memory
+PASS: Repeat dialogue preserves memory and releases player
+PASS: Memory persists in Cave
+PASS: Returning to Island restores solved puzzle
+PASS: No duplicated global manager
+PASS: Restart clears memories and mission
+PASS: New game restores unsolved puzzle and NPC prerequisite
+PASS: Main menu exit also clears memories
+ALL PASSED

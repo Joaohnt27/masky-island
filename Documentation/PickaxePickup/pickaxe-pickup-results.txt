@@ -1,0 +1,16 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: NPC gives exact entrance pickaxe directions
+PASS: Pickaxe requires backpack before collection
+PASS: Pickaxe visible at cave entrance before collection
+PASS: Mining and crystal rewards blocked before pickaxe
+PASS: World click reaches EntrancePickaxe
+PASS: Dialogue completes without repetition
+PASS: Collecting removes entrance sprite and stores ownership
+PASS: Collected pickaxe unlocks mining by clicking rock
+PASS: Collected tool appears during mining
+PASS: Mining with collected tool stores crystal
+PASS: Ten tasks and notes fit diary
+PASS: Pickaxe stays collected on cave revisit
+PASS: New game restores entrance pickaxe
+ALL PASSED

@@ -1,0 +1,27 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Redesigned inventory opens and locks movement
+PASS: Empty inventory explicitly marks missing crystals
+PASS: Missing mineral is a faint preview
+PASS: Pointer reaches CloseInventoryButton; hits=CloseInventoryButton,PlayerInventory,InventoryBackdrop; screen=(497.50, 342.50)
+PASS: Triangle uses generated PNG
+PASS: Collected mineral becomes opaque and marked stored
+PASS: Redesigned map preserves unvisited travel restriction
+PASS: Pointer reaches CloseMap; hits=CloseMap,MapCard,IslandMapPanel; screen=(537.50, 379.00)
+PASS: Pointer reaches MapPinCave; hits=MapPinCave,MapOcean,MapCard,IslandMapPanel; screen=(336.00, 223.43)
+PASS: Full inventory count remains accurate
+PASS: Triangle: illustration assigned in cave UI
+PASS: Circle: illustration assigned in cave UI
+PASS: Square: illustration assigned in cave UI
+PASS: Wrong socket still preserves minerals
+PASS: Matching mineral still fills correct socket
+PASS: Used mineral distinguished from stored mineral
+PASS: Inventory available count decrements after socket
+PASS: Beach: redesigned inventory wired
+PASS: Beach: redesigned map wired
+PASS: Island: redesigned inventory wired
+PASS: Island: redesigned map wired
+PASS: Lighthouse: redesigned inventory wired
+PASS: Lighthouse: redesigned map wired
+PASS: Removed bottom bar stays removed
+ALL PASSED

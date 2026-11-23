@@ -1,0 +1,16 @@
+PASS: Inside exit starts closed and leads to center
+PASS: Hover opens door from inside
+PASS: Hover alone does not leave house
+PASS: Inside door reuses opening sound
+PASS: Mouse exit closes door with sound
+PASS: Reading and inventory movement locks block hover
+PASS: Pause freezes inside door
+PASS: Closing resumes after pause
+PASS: Click holds door open during approach
+PASS: WASD cancels exit and closes door
+PASS: Arrival waits for complete opening
+PASS: Inside door transitions to center
+PASS: Center NPC and player animation preserved
+PASS: Outside door still returns player to house
+PASS: Return restores closed door and keeps house interactions
+ALL PASSED

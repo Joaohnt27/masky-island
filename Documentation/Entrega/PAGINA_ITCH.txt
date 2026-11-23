@@ -1,0 +1,29 @@
+Título: Masky Island
+Resumo: Explore uma ilha ilustrada, recupere suas lembranças e devolva a luz ao farol.
+Tipo: Downloadable
+Plataforma: Windows x64
+Gênero: Adventure / Puzzle
+Idioma: Português (Brasil)
+Preço sugerido para a entrega acadêmica: gratuito
+
+DESCRIÇÃO
+Depois de uma tempestade, você acorda numa praia sem lembrar quem é. Uma casa no horizonte, um diário vazio e um estranho no centro da ilha são as primeiras pistas de uma história que ainda precisa ser reconstruída.
+
+Explore cenários ilustrados, decifre símbolos, minere cristais e fabrique a chave do farol. Cada descoberta aproxima você de suas lembranças e da luz que a ilha perdeu.
+
+Uma aventura para um jogador, com exploração 2.5D, diálogos em português, diário de missões, inventário e viagem rápida entre lugares visitados. Sem combate e sem cronômetro global.
+
+COMO JOGAR
+WASD: mover. Clique esquerdo: interagir. I: mochila. M: mapa. J: diário. Esc: fechar painel ou pausar. Espaço ou botão na tela: confirmar os ajustes da chave e do farol.
+Os itens e atalhos são liberados ao longo da história. Consulte o diário para lembrar o próximo objetivo.
+
+INSTALAÇÃO
+Baixe o ZIP Windows, extraia a pasta inteira e execute MaskyIsland.exe. Não mova apenas o executável: mantenha a pasta de dados e as DLLs junto dele. Não é necessário instalar Unity.
+O progresso da aventura dura a sessão atual e não é salvo ao fechar o jogo.
+
+EQUIPE
+João Henrique Nazar Tavares e Rafael Mele Porto.
+Projeto acadêmico de Engenharia de Software - UNAERP.
+
+ARTE DA PÁGINA
+Usar a capa exportada em output/Entrega/Publicacao/capa-itch.png e as capturas reais na mesma pasta. Não usar imagens de concept art como se fossem screenshots de gameplay.

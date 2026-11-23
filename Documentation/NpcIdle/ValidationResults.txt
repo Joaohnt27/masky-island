@@ -1,0 +1,14 @@
+PASS: NPC has idle controller without root motion
+PASS: Idle starts automatically
+PASS: All four breathing frames play
+PASS: Idle keeps NPC position and scale
+PASS: Click collider remains fixed
+PASS: Pause freezes NPC idle
+PASS: Idle resumes after pause
+PASS: Click still opens NPC dialogue and locks player
+PASS: NPC breathes during conversation
+PASS: Dialogue still starts mission
+PASS: NPC still delivers map
+PASS: Idle restored on return to center
+PASS: Player animations preserved
+ALL PASSED

@@ -1,0 +1,40 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Materials cannot be collected before three sockets
+PASS: Cannot craft without materials
+PASS: Collect crystal Triangle
+PASS: Crystal stored in general inventory
+PASS: No duplicate crystal reward
+PASS: Collect crystal Circle
+PASS: Crystal stored in general inventory
+PASS: No duplicate crystal reward
+PASS: Collect crystal Square
+PASS: Crystal stored in general inventory
+PASS: No duplicate crystal reward
+PASS: Wrong socket preserves inventory item
+PASS: Inventory opens with existing backpack control
+PASS: Inventory lists three crystals and pickaxe
+PASS: Placed crystal leaves inventory while altar history persists
+PASS: Two sockets do not open cache
+PASS: Third socket opens cache and retains second memory
+PASS: Opening cache does not grant materials automatically
+PASS: Opened cache is clickable
+PASS: Camera ray reaches cache collider
+PASS: World click approaches cache and opens collection dialogue
+PASS: Materials collected into inventory
+PASS: Cache cannot duplicate materials
+PASS: Crafting restricted to house
+PASS: Inventory contains materials and tool, no used crystals
+PASS: Selecting material shows its description
+PASS: Materials persist after scene change
+PASS: Cannot craft while paused
+PASS: House workbench replaces third puzzle with crafting dialogue
+PASS: Crafting is not granted before interaction finishes
+PASS: Crafting consumes both materials and creates key
+PASS: Crafting advances final memory progression
+PASS: Key cannot be crafted twice
+PASS: Key and filled altar persist on return
+PASS: Collected cache stays empty on return
+PASS: New game resets items, cache and sockets
+PASS: Old third-puzzle path cannot grant final memory without crafted key
+ALL PASSED

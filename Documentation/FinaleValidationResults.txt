@@ -1,0 +1,40 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Start from ready main menu
+PASS: Play enters Cave
+PASS: New game starts without mission
+PASS: Opening note provides initial direction
+PASS: Global completion rejects missing memories
+PASS: NPC starts mission
+PASS: E opens lighthouse but missing memories lock activation
+PASS: Direct callback cannot bypass prerequisite
+PASS: First puzzle completes through its buttons
+PASS: Three real extractions fill inventory (chance forced only in test)
+PASS: Crystal matches recover second memory
+PASS: Two memories still cannot win
+PASS: Third puzzle makes lighthouse ready without auto-victory
+PASS: NPC explains final action and location
+PASS: All memories unlock activation
+PASS: Pointer reaches ActivateLighthouse
+PASS: Pointer reaches CloseLighthouse
+PASS: Activation is animated, single and blocks movement
+PASS: Inventory cannot interrupt restoration
+PASS: Pause freezes restoration animation
+PASS: Paused close cannot cancel restoration
+PASS: Beacon visibly grows before victory
+PASS: Restoration completes mission once
+PASS: Beacon remains lit after mechanism closes
+PASS: Victory presents story ending
+PASS: Victory blocks movement and further mining
+PASS: Cannot pause over victory
+PASS: Ending text fits: EndGameTitle
+PASS: Ending text fits: EndGameMessage
+PASS: Ending text fits: Label
+PASS: Ending text fits: Label
+PASS: Pointer reaches RestartButton
+PASS: Pointer reaches MainMenuButton
+PASS: Victory restart begins clean Cave session
+PASS: Reset during restoration cancels without stale lock or light
+PASS: New restoration works after reset
+PASS: Victory menu button resets progress and returns to menu
+ALL PASSED

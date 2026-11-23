@@ -1,0 +1,53 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Only current area initially visited
+PASS: M, button and direct travel remain locked before NPC gift
+PASS: Locked HUD does not advertise map key
+PASS: Interrupted dialogue does not grant map or start mission
+PASS: NPC grants map only after final initial line
+PASS: Map reward is idempotent
+PASS: Reminder dialogue preserves gift
+PASS: Gift persists across scenes and reveals button
+PASS: M opens gifted map and locks movement
+PASS: Illustrated map texture assigned
+PASS: Pointer reaches MapPinBeach
+PASS: Pointer reaches MapPinHouse
+PASS: Pointer reaches MapPinIsland
+PASS: Pointer reaches MapPinCave
+PASS: Pointer reaches MapPinLighthouse
+PASS: Map hides overlapping objective HUD
+PASS: Pointer reaches MapPinHouse
+PASS: Pointer reaches CloseMap
+PASS: Unvisited pin shows details but cannot travel
+PASS: Direct call cannot bypass visit requirement
+PASS: Escape closes map without pausing and releases player
+PASS: Current location cannot travel to itself
+PASS: Visited beach enables travel
+PASS: Fast travel changes scene once and preserves visits
+PASS: Inventory cannot overlap map
+PASS: Fast travel preserves inventory and memories
+PASS: Map blocked by inventory
+PASS: Map blocked by puzzle
+PASS: Map blocked during pause
+PASS: One persistent audio service across trips
+PASS: Audio clip loads: Click
+PASS: Audio clip loads: Open
+PASS: Audio clip loads: Close
+PASS: Audio clip loads: Pickaxe
+PASS: Audio clip loads: Crystal
+PASS: Audio clip loads: Success
+PASS: Audio clip loads: Error
+PASS: Audio clip loads: Confirm
+PASS: Audio clip loads: Travel
+PASS: Audio clip loads: Beacon
+PASS: Audio clip loads: Footstep
+PASS: Action cues routed to audio service
+PASS: Paused world suppresses new strikes
+PASS: UI remains audible during pause
+PASS: Existing SFX control mutes both channels and restored preference
+PASS: Map cannot interrupt mining
+PASS: Mining produces timed pickaxe feedback
+PASS: New game clears visited destinations
+PASS: New game removes map and locks access again
+PASS: Starting mission alone does not award NPC map
+ALL PASSED

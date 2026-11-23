@@ -1,0 +1,39 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Inventory hidden before mission
+PASS: Rock locked before first memory
+PASS: Collection no longer opens the shape selection panel
+PASS: Inventory appears during mission
+PASS: Empty slot does not reveal the crystal
+PASS: Camera ray reaches mineable rock collider
+PASS: Rock click is not covered by UI
+PASS: Character walks to rock and starts extraction (position=(3.72, -5.15, -0.10), pointer=(548.00, 86.84))
+PASS: Mining locks movement
+PASS: World pickaxe visible during extraction
+PASS: Pickaxe swings while mining
+PASS: No reward before extraction completes
+PASS: Pause freezes extraction
+PASS: Cancel restores movement without granting crystal
+PASS: Cancel hides pickaxe
+PASS: First extraction deposits first crystal (count=1, mining=False, progress=1, movement=True, position=(3.80, -5.15, -0.10))
+PASS: Collected crystal appears in inventory
+PASS: Collection confirms inventory deposit
+PASS: Hidden shape selection cannot choose the next reward
+PASS: Inventory survives Cave scene transition
+PASS: Second extraction finds a different crystal
+PASS: Leaving scene cancels unfinished extraction
+PASS: Third extraction completes inventory without duplicates
+PASS: Three crystals unlock matching stage
+PASS: Exhausted rock cannot grant more crystals
+PASS: Active HUD text fits its containers
+PASS: Symbol has rendering component: CrystalShape
+PASS: Symbol has rendering component: CrystalShape
+PASS: Symbol has rendering component: CrystalShape
+PASS: Pointer reaches CrystalSocket1
+PASS: Pointer reaches CrystalCircleButton
+PASS: Wrong socket preserves inventory
+PASS: Correct match marks item used in inventory
+PASS: Using three inventory crystals recovers memory
+PASS: Used crystals no longer counted as carried
+PASS: Reset clears inventory and hides HUD
+ALL PASSED

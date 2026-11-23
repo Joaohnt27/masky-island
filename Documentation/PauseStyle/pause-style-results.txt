@@ -1,0 +1,58 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Beach: existing controllers present
+PASS: Beach: Escape pauses gameplay
+PASS: Beach: styled pause visible
+PASS: Beach: parchment art assigned
+PASS: Pointer reaches ResumeButton
+PASS: Pointer reaches PauseSettingsButton
+PASS: Pointer reaches PauseMainMenuButton
+PASS: Beach: settings open while paused
+PASS: Beach: Escape returns from settings
+PASS: Beach: Continue resumes game
+PASS: Beach: Escape also resumes
+PASS: House: existing controllers present
+PASS: House: Escape pauses gameplay
+PASS: House: styled pause visible
+PASS: House: parchment art assigned
+PASS: Pointer reaches ResumeButton
+PASS: Pointer reaches PauseSettingsButton
+PASS: Pointer reaches PauseMainMenuButton
+PASS: House: settings open while paused
+PASS: House: Escape returns from settings
+PASS: House: Continue resumes game
+PASS: House: Escape also resumes
+PASS: Island: existing controllers present
+PASS: Island: Escape pauses gameplay
+PASS: Island: styled pause visible
+PASS: Island: parchment art assigned
+PASS: Pointer reaches ResumeButton
+PASS: Pointer reaches PauseSettingsButton
+PASS: Pointer reaches PauseMainMenuButton
+PASS: Island: settings open while paused
+PASS: Island: Escape returns from settings
+PASS: Island: Continue resumes game
+PASS: Island: Escape also resumes
+PASS: Cave: existing controllers present
+PASS: Cave: Escape pauses gameplay
+PASS: Cave: styled pause visible
+PASS: Cave: parchment art assigned
+PASS: Pointer reaches ResumeButton
+PASS: Pointer reaches PauseSettingsButton
+PASS: Pointer reaches PauseMainMenuButton
+PASS: Cave: settings open while paused
+PASS: Cave: Escape returns from settings
+PASS: Cave: Continue resumes game
+PASS: Cave: Escape also resumes
+PASS: Lighthouse: existing controllers present
+PASS: Lighthouse: Escape pauses gameplay
+PASS: Lighthouse: styled pause visible
+PASS: Lighthouse: parchment art assigned
+PASS: Pointer reaches ResumeButton
+PASS: Pointer reaches PauseSettingsButton
+PASS: Pointer reaches PauseMainMenuButton
+PASS: Lighthouse: settings open while paused
+PASS: Lighthouse: Escape returns from settings
+PASS: Lighthouse: Continue resumes game
+PASS: Lighthouse: Escape also resumes
+ALL PASSED

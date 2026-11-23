@@ -1,0 +1,48 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Illustrated backpack opens
+PASS: Backpack illustrated theme enabled
+PASS: Pointer reaches ItemSlot1
+PASS: Pocket selection updates description
+PASS: Detail icon assigned
+PASS: Workbench opens minigame instead of granting key
+PASS: Workbench locks movement
+PASS: Cannot place metal before mold
+PASS: Pointer reaches CraftPlaceMold
+PASS: Click places mold
+PASS: Pointer reaches CraftPlaceMetal
+PASS: Click fits metal into mold
+PASS: Cannot collect unfinished key
+PASS: Mistimed strike does not advance
+PASS: Miss preserves both materials
+PASS: Escape closes workbench and restores movement
+PASS: Cancelling keeps materials
+PASS: Reopening resets local minigame
+PASS: Pause freezes cursor and blocks strikes
+PASS: Timing target reachable 0
+PASS: Pointer reaches CraftAction
+PASS: Correct timed strike advances 1
+PASS: Rapid repeated strike does not skip stage
+PASS: Timing target reachable 1
+PASS: Correct timed strike advances 2
+PASS: Rapid repeated strike does not skip stage
+PASS: Timing target reachable 2
+PASS: Pointer reaches CraftAction
+PASS: Correct timed strike advances 3
+PASS: Rapid repeated strike does not skip stage
+PASS: Three strikes prepare key without automatic reward
+PASS: Collecting consumes recipe and creates key
+PASS: Crafting shows completion
+PASS: No duplicate key on repeated collection
+PASS: Completion closes correctly
+PASS: Crafted key visible in illustrated backpack
+PASS: Cannot replay crafting after key completion
+PASS: Backpack and key persist in Beach
+PASS: Illustrated backpack configured in Beach
+PASS: Backpack and key persist in Island
+PASS: Illustrated backpack configured in Island
+PASS: Backpack and key persist in Cave
+PASS: Illustrated backpack configured in Cave
+PASS: Backpack and key persist in Lighthouse
+PASS: Illustrated backpack configured in Lighthouse
+ALL PASSED

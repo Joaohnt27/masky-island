@@ -1,0 +1,41 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Menu starts on beach
+PASS: Mission waits for NPC
+PASS: Legacy world background removed
+PASS: WASD moves player: (-2.50, -2.20, -1.00) -> (-0.32, -2.20, -1.00), enabled=True, fade=False
+PASS: Pause blocks WASD
+PASS: Click on destination label approaches and changes scene
+PASS: House visit recorded
+PASS: Click on house desk approaches and opens note
+PASS: NPC lives at center
+PASS: Click on NPC starts dialogue
+PASS: NPC starts mission once
+PASS: Repeated mission start preserves progress
+PASS: Farol rejects missing memories
+PASS: House sky puzzle recovers first memory
+PASS: NPC not duplicated in cave
+PASS: Failed mining finishes without a crystal
+PASS: Mining locks movement
+PASS: Mining locks movement
+PASS: Mining locks movement
+PASS: Three completed extractions populate inventory
+PASS: Crystal panel can be dismissed
+PASS: Clicking sockets reopens crystal puzzle: player=(-0.08, -0.60, -1.00), enabled=True, hit=CrystalSockets (UnityEngine.BoxCollider), pointerUI=False
+PASS: Puzzle panel hides overlapping HUD
+PASS: I opens inventory
+PASS: Wrong socket preserves crystals
+PASS: Crystal puzzle recovers storm memory
+PASS: Returning home reveals second reading on same desk
+PASS: Return puzzle unlocks finale without winning
+PASS: QTE activation is single
+PASS: Pause freezes QTE time
+PASS: Wrong key allows retry without victory
+PASS: QTE timeout permits retry
+PASS: Correct timed keys complete mission
+PASS: Victory transitions to cutscene
+PASS: Cutscene automatically reaches credits
+PASS: Credits return to menu
+PASS: Replay clears progress and returns to beach
+PASS: Single persistent GameManager
+ALL PASSED

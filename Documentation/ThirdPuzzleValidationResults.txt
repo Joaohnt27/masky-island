@@ -1,0 +1,40 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Note panel starts closed
+PASS: Nearby note shows E prompt
+PASS: E opens note and blocks walking
+PASS: Puzzle locked before mission
+PASS: Opening note still points to the NPC
+PASS: Direct callback cannot bypass inactive mission
+PASS: Closing note restores movement
+PASS: First memory alone cannot unlock third puzzle
+PASS: GameManager rejects early third memory
+PASS: Locked sequence grants no reward
+PASS: Crystal puzzle setup grants second memory
+PASS: Second memory unlocks note sequence
+PASS: Pointer reaches BoatSymbolButton
+PASS: Pointer reaches FishSymbolButton
+PASS: Pointer reaches LighthouseSymbolButton
+PASS: Pointer reaches CloseButton
+PASS: Text fits: ScrollTitle
+PASS: Text fits: ScrollText
+PASS: Text fits: Text (TMP)
+PASS: Text fits: Label
+PASS: Text fits: Label
+PASS: Text fits: Label
+PASS: Text fits: ReturnPuzzleFeedback
+PASS: Inventory cannot overlap note interaction
+PASS: Boat starts correct sequence
+PASS: Wrong symbol resets attempt without erasing memories
+PASS: Pause blocks symbols and note close
+PASS: Closing and reopening clears partial sequence
+PASS: Correct sequence recovers third memory without prematurely ending game
+PASS: Third memory reveals reason for return
+PASS: Solved puzzle disables symbol buttons
+PASS: Repeated callbacks cannot duplicate reward
+PASS: Third memory persists on Island
+PASS: NPC acknowledges third memory
+PASS: Revisited note remains solved
+PASS: Reset clears all memories and puzzle progress
+PASS: Reset and close leave no movement lock
+ALL PASSED

@@ -1,0 +1,21 @@
+PASS: House door starts closed
+PASS: Door sounds imported
+PASS: Hover opens illustrated door; progress=1; hover=PathToHouse (DoorInteraction); hit=PathToHouse (UnityEngine.BoxCollider); enabled=True; mouse=(20.06, 342.53); expected=(20.06, 342.53); UI=False
+PASS: Hover does not move player or change scene
+PASS: Opening uses door sound
+PASS: Mouse exit closes door with sound
+PASS: Opening has intermediate frames
+PASS: Rapid hover reversal recovers without restarting a coroutine
+PASS: Pause freezes door animation
+PASS: Door responds again after resume
+PASS: Dialogue/inventory lock blocks door hover
+PASS: Click keeps door open while approaching with pointer elsewhere
+PASS: WASD cancels entry and closes unhovered door
+PASS: Arrival waits until door finishes opening
+PASS: Fully open door transitions once to House
+PASS: Other exits keep existing behavior
+PASS: Beach house has closed animated entrance
+PASS: Beach entrance opens on hover
+PASS: Returning to center resets door closed
+PASS: NPC idle and player animation preserved
+ALL PASSED

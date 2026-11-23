@@ -1,0 +1,32 @@
+EDITOR NOTE: startup search index exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Splash starts without nickname or gameplay
+PASS: Settings bootstrap exists in Splash
+PASS: Splash has Canvas particles without blocking input
+PASS: Click waits for animation before changing scenes
+PASS: Splash click animation completes before MainMenu
+PASS: Splash leads to nickname
+PASS: Original video and RenderTexture remain assigned
+PASS: Nickname starts covered by fade-in
+PASS: Nickname fade completes while time is paused and releases input
+PASS: Cancel button starts one transition to Splash
+PASS: Cancel nickname returns to Splash
+PASS: Cancel does not save unfinished nickname
+PASS: Splash can reopen nickname after cancelling
+PASS: Continue keeps nickname visible during fade-out
+PASS: Repeated confirmation and Play cannot bypass intro
+PASS: Video panel opens only after nickname is fully covered
+PASS: Intro completion opens menu without starting gameplay
+PASS: Menu fade-in finishes and restores interaction
+PASS: Credits button loads saved credits scene
+PASS: Credits retains editable nonempty text
+PASS: Credits scroll upward with paused game time
+PASS: Back from credits restores menu without nickname or intro
+PASS: Credits return automatically after final line
+PASS: Settings panel belongs to MainMenu scene
+PASS: Settings opening fades out menu before switching panels
+PASS: Settings button opens panel
+FAIL: System.Exception: Missing object SettingsBackground
+  at GameplayValidationRunner.Named (System.String name) [0x0002a] in C:\Users\jh27n\Unity Games\Mask Island\Temp\GameplayWork\ValidationProject\Assets\Scripts\GameplayValidationRunner.cs:92 
+  at GameplayValidationRunner+<Tests>d__14.MoveNext () [0x00ad1] in C:\Users\jh27n\Unity Games\Mask Island\Temp\GameplayWork\ValidationProject\Assets\Scripts\GameplayValidationRunner.cs:212 
+  at GameplayValidationRunner+<Guard>d__8.MoveNext () [0x0001c] in C:\Users\jh27n\Unity Games\Mask Island\Temp\GameplayWork\ValidationProject\Assets\Scripts\GameplayValidationRunner.cs:70 

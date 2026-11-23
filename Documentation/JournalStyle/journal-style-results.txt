@@ -1,0 +1,12 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Completed task starts pen stroke on opening
+PASS: Strike grows gradually instead of appearing instantly
+PASS: Stroke finishes across completed task
+PASS: Reopening does not animate completed stroke again
+PASS: All tasks and memory notes fit the pages
+PASS: Pointer reaches CloseJournal; hits=CloseJournal,JournalCover,JournalPanel; screen=(540.00, 375.00)
+PASS: Journal uses game font
+PASS: Scene change preserves strokes already shown
+PASS: New game closes journal
+ALL PASSED

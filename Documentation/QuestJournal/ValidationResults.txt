@@ -1,0 +1,22 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Notebook available after house visit
+PASS: Notebook icon anchored bottom-right
+PASS: Pointer reaches CloseJournal; hits=CloseJournal,JournalCover,JournalPanel; screen=(540.00, 375.00)
+PASS: Completed visit crossed out; future crystal mission not revealed
+PASS: Journal locks movement
+PASS: Journal prevents conflicting panels
+PASS: NPC progress crosses task and adds next entry
+PASS: First memory reveals mining task
+PASS: Collecting crystals crosses mining task and records sockets
+PASS: Recovered memories lead to lighthouse task
+PASS: All seven tasks and notes fit pages
+PASS: Escape closes notebook without pausing and releases player
+PASS: Island: notebook retains progress
+PASS: Cave: notebook retains progress
+PASS: Lighthouse: notebook retains progress
+PASS: Beach: notebook retains progress
+PASS: J opens notebook
+PASS: J closes notebook
+PASS: Reset clears availability and previous notes cannot be opened
+ALL PASSED

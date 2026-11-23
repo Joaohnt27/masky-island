@@ -1,0 +1,47 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Mining components are active and wired
+PASS: Entering area shows locked panel before mission
+PASS: Cannot mine or collect before mission
+PASS: Mission alone does not unlock crystals
+PASS: Second memory cannot bypass its sockets
+PASS: First memory unlocks crystal mining
+PASS: Mining blocks movement, duplicate attempts, selection and sockets
+PASS: Progress advances without early reward
+PASS: Pause freezes mining and blocks closing behind pause
+PASS: Three seconds grant chosen crystal exactly once and release movement
+PASS: Depleted vein cannot be mined again
+PASS: Repeated mining callback cannot duplicate crystal
+PASS: Uncollected crystal cannot be placed
+PASS: Wrong socket gives feedback without consuming crystal
+PASS: Matching triangle socket fills once
+PASS: Closing cancels excavation without reward and releases movement
+PASS: Hidden panel callbacks are rejected
+PASS: Leaving and returning reopens dismissed panel
+PASS: Forced area exit cancels without reward
+PASS: Scene change cancels incomplete excavation but preserves collected crystal and socket
+PASS: Returning restores filled socket
+PASS: Circle vein gives guaranteed circle
+PASS: Three distinct veins grant exactly three crystals
+PASS: Two sockets do not grant second memory
+PASS: Third matching socket grants storm memory
+PASS: Second puzzle does not end adventure and disables completed controls
+PASS: Second memory is shown in panel
+PASS: Solved callbacks cannot duplicate rewards
+PASS: Text height fits: MinigTitle
+PASS: Text height fits: MinigResultText
+PASS: Text height fits: Text (TMP)
+PASS: Text height fits: CrystalInstructions
+PASS: Text height fits: Label
+PASS: Text height fits: Label
+PASS: Text height fits: Label
+PASS: Text height fits: Label
+PASS: Text height fits: Label
+PASS: Text height fits: Label
+PASS: Text height fits: CrystalInventory
+PASS: Text height fits: Label
+PASS: NPC acknowledges second memory
+PASS: Entire solved puzzle persists across round trip
+PASS: Restart clears crystals, sockets and memories
+PASS: Return to menu also clears all crystal progress
+ALL PASSED

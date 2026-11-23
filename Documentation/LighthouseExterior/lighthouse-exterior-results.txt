@@ -1,0 +1,40 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Cache materials collected
+PASS: Legacy interior route accepted safely
+PASS: Locked route redirects to exterior
+PASS: Exterior supports gameplay systems
+PASS: Exterior visit registered
+PASS: World plaque click opens readable clue
+PASS: Lock panel blocks movement
+PASS: Pointer reaches ReadInscription
+PASS: Cannot use missing key
+PASS: Correct code cannot bypass crafted key
+PASS: Entry blocked before unlock
+PASS: Escape returns control
+PASS: Clue is recorded in journal
+PASS: Crafted key available for lock
+PASS: Cannot win before unlocking door
+PASS: Map legacy pin selects visited exterior
+PASS: Fast travel lands outside
+PASS: Door click walks to entrance and opens lock interface
+PASS: Pointer reaches UseLighthouseKey
+PASS: Key used without removing inventory keepsake
+PASS: Pause blocks lock inputs
+PASS: Pointer reaches UnlockLighthouse
+PASS: Wrong combination does not unlock
+PASS: Digit decrements wrap to nine
+PASS: Buttons form intended combination
+PASS: Correct combination unlocks after key
+PASS: World padlock removed after success
+PASS: Cannot repeat reward
+PASS: Pointer reaches EnterLighthouse
+PASS: Unlocked entry loads original interior
+PASS: Interior exit returns outside
+PASS: Lock and clue persist after leaving
+PASS: Padlock remains absent on return
+PASS: Original QTE still starts after entry
+PASS: QTE completes mission
+PASS: QTE retains ending video route
+PASS: New game resets lock and clue state
+ALL PASSED

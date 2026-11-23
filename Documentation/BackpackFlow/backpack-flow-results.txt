@@ -1,0 +1,27 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Dialogue completes without repetition
+PASS: Dialogue completes without repetition
+PASS: Diary immediately records house goal
+PASS: World click reaches HouseBackpack
+PASS: Dialogue completes without repetition
+PASS: Cannot take backpack before NPC permission
+PASS: Inventory unavailable before collecting backpack
+PASS: Table click shows house notice
+PASS: Dialogue completes without repetition
+PASS: Notice directs player to center without starting mission
+PASS: Journal records notice destination
+PASS: Dialogue completes without repetition
+PASS: NPC starts mission and sends player back for backpack
+PASS: Cannot collect crystals without backpack
+PASS: World click reaches HouseBackpack
+PASS: Dialogue completes without repetition
+PASS: Authorized pickup removes backpack from house
+PASS: Collected backpack unlocks inventory
+PASS: Backpack permits storing Triangle
+PASS: Backpack permits storing Circle
+PASS: Backpack permits storing Square
+PASS: Nine tasks and notes fit journal
+PASS: Backpack stays collected on revisit
+PASS: New game resets notice and backpack
+ALL PASSED

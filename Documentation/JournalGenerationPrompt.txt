@@ -1,0 +1,4 @@
+Method: built-in image_gen, transparent PNG.
+Asset: Assets/Art/UI/Icons/Journal-v1.png
+
+Use case: illustration-story. Production game HUD icon for a hand-painted island adventure. One small closed travel notebook, slightly tilted, warm brown weathered leather cover, muted dark teal cloth spine, visible cream paper edges, simple brass clasp, short ochre ribbon bookmark, a small quill tucked along its side. Hand-painted gouache and dark ink outlines, rustic storybook style matching parchment map and leather inventory bag. Broad readable shapes at 84px, centered object filling 85 percent of square frame. Genuine transparent background. No words, no letters, no UI frame, no scenery, no external shadow. Elegant simple silhouette, not photorealistic or glossy 3D.

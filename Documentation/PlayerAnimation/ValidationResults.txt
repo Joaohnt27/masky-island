@@ -1,0 +1,37 @@
+PASS: Controller assigned without root motion
+PASS: Initial idle faces front
+PASS: Four walking and four directional idle clips
+PASS: WASD walk Front
+PASS: Walking state Front
+PASS: Walking changes drawn frames Front
+PASS: Idle preserves facing Front
+PASS: WASD walk Back
+PASS: Walking state Back
+PASS: Walking changes drawn frames Back
+PASS: Idle preserves facing Back
+PASS: WASD walk Left
+PASS: Walking state Left
+PASS: Walking changes drawn frames Left
+PASS: Idle preserves facing Left
+PASS: WASD walk Right
+PASS: Walking state Right
+PASS: Walking changes drawn frames Right
+PASS: Idle preserves facing Right
+PASS: Idle breathing changes frame
+PASS: Dialogue/mining movement lock stops walking
+PASS: Walking into map boundary stays idle
+PASS: Pause freezes sprite and movement
+PASS: Resume returns to idle
+PASS: Click approach animates walking
+PASS: Arriving at NPC opens dialogue and stops walk
+PASS: Scene arrival ready in Beach
+PASS: Imported sprite visible in Beach
+PASS: Scene arrival ready in House
+PASS: Imported sprite visible in House
+PASS: Scene arrival ready in Island
+PASS: Imported sprite visible in Island
+PASS: Scene arrival ready in Cave
+PASS: Imported sprite visible in Cave
+PASS: Scene arrival ready in Lighthouse
+PASS: Imported sprite visible in Lighthouse
+ALL PASSED

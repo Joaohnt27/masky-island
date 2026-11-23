@@ -1,0 +1,25 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Main menu ready
+PASS: Pointer reaches PlayButton
+PASS: Pointer reaches SettingsButton
+PASS: Pointer reaches CreditsButton
+PASS: Pointer reaches ExitButton
+PASS: Settings button opens settings
+PASS: Audio tab active
+PASS: Audio slider remains functional
+PASS: Video tab switches correctly
+PASS: Video dropdown opens
+PASS: Escape closes dropdown first
+PASS: Controls tab available
+PASS: Settings returns to menu
+PASS: Credits button loads scene
+PASS: Credits still scroll
+PASS: Pointer reaches BackButton
+PASS: Credits returns to main menu
+PASS: Pointer reaches ContinueButton
+PASS: Pointer reaches CancelButton
+PASS: Nickname input preserved
+PASS: Play starts gameplay introduction
+PASS: Skipping introduction enters beach
+ALL PASSED

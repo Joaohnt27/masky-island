@@ -1,0 +1,16 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Nickname transition clip remains configured separately
+PASS: Play selects gameplay video and blocks repeated clicks
+PASS: Real gameplay video plays before loading beach
+PASS: Video decoder advances and produces picture
+PASS: Opening video reaches beach
+PASS: Saved player nickname replaces You in beach dialogue
+PASS: Player name is displayed literally
+PASS: Opening preserves NPC mission and map gates
+PASS: Named speaker still expresses memory loss
+PASS: Beach intro still completes and releases player
+PASS: Opening video reaches beach
+PASS: Missing clip falls back to gameplay without a soft lock
+PASS: Empty nickname falls back to You
+ALL PASSED

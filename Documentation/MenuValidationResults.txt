@@ -1,0 +1,65 @@
+EDITOR NOTE: startup search index exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Splash starts without nickname or gameplay
+PASS: Settings bootstrap exists in Splash
+PASS: Splash has Canvas particles without blocking input
+PASS: Click waits for animation before changing scenes
+PASS: Splash click animation completes before MainMenu
+PASS: Splash leads to nickname
+PASS: Original video and RenderTexture remain assigned
+PASS: Nickname starts intro before showing menu
+PASS: Repeated confirmation and Play cannot bypass intro
+PASS: Intro completion opens menu without starting gameplay
+PASS: Settings button opens panel
+PASS: Audio sliders apply centralized volumes
+PASS: Direct video audio respects master and music
+PASS: Future music AudioSource respects category
+PASS: Future SFX AudioSource respects category
+PASS: Back returns to same menu without reloading
+PASS: Audio preferences saved
+PASS: Resolution choices populated from display/current window
+PASS: Video preferences applied and persisted
+PASS: Settings reload stored preferences
+PASS: Play enters Cave after intro and menu
+PASS: Cave has no mining components
+PASS: Settings survive scene change
+PASS: Cave starts with inactive singletons
+PASS: HUD and timer hidden before mission
+PASS: Money rejected before mission
+PASS: Singletons survive Cave to Island
+PASS: No duplicate managers
+PASS: Mission waits for final dialogue completion
+PASS: Dialogue starts 20 minute mission with zero money
+PASS: Money HUD updates immediately
+PASS: Dialogue releases movement
+PASS: Repeated start does not reset timer
+PASS: Returning to Cave still has no mining area
+PASS: Island has exactly one mining spot
+PASS: HUD and timer restored after scene change
+PASS: Entering mining area shows panel
+PASS: Leaving mining area hides panel
+PASS: Mining locks movement and repeated button clicks
+PASS: Progress advances with no early reward
+PASS: One reward delivered after three seconds
+PASS: Mining restores controls and displays result
+PASS: Reward updates global HUD
+PASS: Configurable failure gives no money
+PASS: Reward distribution 1
+PASS: Reward distribution 2
+PASS: Reward distribution 5
+PASS: Reward distribution 10
+PASS: Reward distribution 25
+PASS: Reward distribution 50
+PASS: Reward distribution 75
+PASS: Reward distribution 100
+PASS: 240 + 25 wins at 265
+PASS: Victory freezes timer and rejects further rewards/mining
+PASS: Victory feedback visible
+PASS: Timeout ends at zero with no victory
+PASS: Timeout cancels mining and releases player without reward
+PASS: Game over rejects money, victory and repeated start
+PASS: Forced exit cancels mining
+PASS: Scene change cancels mining without late reward
+PASS: Returning dialogue uses persistent manager without resetting
+PASS: Still one GameManager after round trip
+ALL PASSED

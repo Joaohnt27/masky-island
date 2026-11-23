@@ -1,0 +1,13 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Ending has active camera from first frame
+PASS: Camera renders directly to Display 1
+PASS: Background camera does not render scene geometry
+PASS: No duplicate audio listener
+PASS: Final video plays decoded frames
+PASS: Video remains connected to UI
+PASS: Display camera stays active during playback
+PASS: Pointer reaches SkipAnimationButton
+PASS: Skip still opens credits
+PASS: Ending camera is removed on scene change
+ALL PASSED

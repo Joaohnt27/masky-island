@@ -1,0 +1,69 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Locked HUD explains the prerequisite
+PASS: Future steps stay hidden
+PASS: Active HUD text fits its containers
+PASS: Symbol has rendering component: CrystalShape
+PASS: Symbol has rendering component: CrystalShape
+PASS: Symbol has rendering component: CrystalShape
+PASS: Mission alone cannot unlock collection
+PASS: Primary action names the selected crystal
+PASS: Cards show all three vector shapes
+PASS: Pointer reaches CrystalTriangleButton
+PASS: Pointer reaches CrystalCircleButton
+PASS: Pointer reaches CrystalSquareButton
+PASS: Pointer reaches MinigButton
+PASS: Pointer reaches CloseCrystalPanel
+PASS: Active HUD text fits its containers
+PASS: Symbol has rendering component: CrystalShape
+PASS: Symbol has rendering component: CrystalShape
+PASS: Symbol has rendering component: CrystalShape
+PASS: Mining still blocks duplicate attempts, selection and movement
+PASS: Extraction progress is visible without early reward
+PASS: Active HUD text fits its containers
+PASS: Symbol has rendering component: CrystalShape
+PASS: Symbol has rendering component: CrystalShape
+PASS: Symbol has rendering component: CrystalShape
+PASS: Pause freezes extraction and prevents closing behind pause
+PASS: Three-second extraction grants one crystal
+PASS: Next uncollected crystal is selected automatically
+PASS: Collected vein cannot be selected again during collection
+PASS: Hidden socket callbacks cannot skip collection phase
+PASS: Explicit choice updates primary action
+PASS: Cancel and leave releases movement without reward
+PASS: Closed HUD rejects callbacks
+PASS: Leaving area cancels extraction and hides HUD
+PASS: Scene change cancels partial extraction
+PASS: Returning resumes correct collection objective
+PASS: Second collection advances to last vein
+PASS: All crystals automatically reveal matching step and hide mining controls
+PASS: Matching instruction names selected shape
+PASS: Pointer reaches CrystalSocket1
+PASS: Pointer reaches CrystalSocket2
+PASS: Pointer reaches CrystalSocket3
+PASS: Active HUD text fits its containers
+PASS: Symbol has rendering component: CrystalShape
+PASS: Symbol has rendering component: CrystalShape
+PASS: Symbol has rendering component: CrystalShape
+PASS: Wrong match explains retry without losing crystal
+PASS: Active HUD text fits its containers
+PASS: Symbol has rendering component: CrystalShape
+PASS: Symbol has rendering component: CrystalShape
+PASS: Symbol has rendering component: CrystalShape
+PASS: Correct socket shows its shape and selects next available crystal
+PASS: Completed sockets cannot duplicate progress
+PASS: Matching stage and partial sockets survive scene round trip
+PASS: Two matches do not finish puzzle
+PASS: Final match grants second memory once without ending adventure
+PASS: Completion replaces controls with memory presentation
+PASS: Completion gives story and concrete next step
+PASS: Pointer reaches CloseCrystalPanel
+PASS: Active HUD text fits its containers
+PASS: Symbol has rendering component: MemoryCrystal0
+PASS: Symbol has rendering component: MemoryCrystal1
+PASS: Symbol has rendering component: MemoryCrystal2
+PASS: Hidden completed controls cannot duplicate reward
+PASS: Suggested NPC conversation acknowledges second memory
+PASS: Restart clears all story progress
+PASS: Menu exit resets inventory and memories
+ALL PASSED

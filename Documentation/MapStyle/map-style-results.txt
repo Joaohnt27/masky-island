@@ -1,0 +1,80 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Map opens and unvisited destination stays locked
+PASS: Pointer reaches CloseMap; hits=CloseMap,MapCard,IslandMapPanel; screen=(537.50, 379.00)
+PASS: Pointer reaches MapPinBeach; hits=MapPinBeach,MapOcean,MapCard,IslandMapPanel; screen=(121.40, 163.13)
+PASS: Text fits: Beach / MapTitle
+PASS: Text fits: Beach / MapSubtitle
+PASS: Text fits: Beach / CloseMapLabel
+PASS: Text fits: Beach / MapPinBeachLabel
+PASS: Text fits: Beach / MapPinHouseLabel
+PASS: Text fits: Beach / MapPinIslandLabel
+PASS: Text fits: Beach / MapPinCaveLabel
+PASS: Text fits: Beach / MapPinLighthouseLabel
+PASS: Text fits: Beach / LocationTitle
+PASS: Text fits: Beach / LocationInfo
+PASS: Text fits: Beach / MapTravelLabel
+PASS: Text fits: Beach / MapObjective
+PASS: Text fits: Beach / MapLegend
+PASS: Pointer reaches MapPinHouse; hits=MapPinHouse,MapOcean,MapCard,IslandMapPanel; screen=(117.70, 223.43)
+PASS: Text fits: House / MapTitle
+PASS: Text fits: House / MapSubtitle
+PASS: Text fits: House / CloseMapLabel
+PASS: Text fits: House / MapPinBeachLabel
+PASS: Text fits: House / MapPinHouseLabel
+PASS: Text fits: House / MapPinIslandLabel
+PASS: Text fits: House / MapPinCaveLabel
+PASS: Text fits: House / MapPinLighthouseLabel
+PASS: Text fits: House / LocationTitle
+PASS: Text fits: House / LocationInfo
+PASS: Text fits: House / MapTravelLabel
+PASS: Text fits: House / MapObjective
+PASS: Text fits: House / MapLegend
+PASS: Pointer reaches MapPinIsland; hits=MapPinIsland,MapOcean,MapCard,IslandMapPanel; screen=(221.30, 219.41)
+PASS: Text fits: Island / MapTitle
+PASS: Text fits: Island / MapSubtitle
+PASS: Text fits: Island / CloseMapLabel
+PASS: Text fits: Island / MapPinBeachLabel
+PASS: Text fits: Island / MapPinHouseLabel
+PASS: Text fits: Island / MapPinIslandLabel
+PASS: Text fits: Island / MapPinCaveLabel
+PASS: Text fits: Island / MapPinLighthouseLabel
+PASS: Text fits: Island / LocationTitle
+PASS: Text fits: Island / LocationInfo
+PASS: Text fits: Island / MapTravelLabel
+PASS: Text fits: Island / MapObjective
+PASS: Text fits: Island / MapLegend
+PASS: Pointer reaches MapPinCave; hits=MapPinCave,MapOcean,MapCard,IslandMapPanel; screen=(336.00, 223.43)
+PASS: Text fits: Cave / MapTitle
+PASS: Text fits: Cave / MapSubtitle
+PASS: Text fits: Cave / CloseMapLabel
+PASS: Text fits: Cave / MapPinBeachLabel
+PASS: Text fits: Cave / MapPinHouseLabel
+PASS: Text fits: Cave / MapPinIslandLabel
+PASS: Text fits: Cave / MapPinCaveLabel
+PASS: Text fits: Cave / MapPinLighthouseLabel
+PASS: Text fits: Cave / LocationTitle
+PASS: Text fits: Cave / LocationInfo
+PASS: Text fits: Cave / MapTravelLabel
+PASS: Text fits: Cave / MapObjective
+PASS: Text fits: Cave / MapLegend
+PASS: Pointer reaches MapPinLighthouse; hits=MapPinLighthouse,MapOcean,MapCard,IslandMapPanel; screen=(280.50, 279.71)
+PASS: Text fits: Lighthouse / MapTitle
+PASS: Text fits: Lighthouse / MapSubtitle
+PASS: Text fits: Lighthouse / CloseMapLabel
+PASS: Text fits: Lighthouse / MapPinBeachLabel
+PASS: Text fits: Lighthouse / MapPinHouseLabel
+PASS: Text fits: Lighthouse / MapPinIslandLabel
+PASS: Text fits: Lighthouse / MapPinCaveLabel
+PASS: Text fits: Lighthouse / MapPinLighthouseLabel
+PASS: Text fits: Lighthouse / LocationTitle
+PASS: Text fits: Lighthouse / LocationInfo
+PASS: Text fits: Lighthouse / MapTravelLabel
+PASS: Text fits: Lighthouse / MapObjective
+PASS: Text fits: Lighthouse / MapLegend
+PASS: Title uses game Kablammo font
+PASS: Body uses game DynaPuff font
+PASS: Visited destination enables travel
+PASS: Pointer reaches MapTravel; hits=MapTravel,MapDetail,MapCard,IslandMapPanel; screen=(520.00, 154.00)
+PASS: Travel returns to visited house
+ALL PASSED
