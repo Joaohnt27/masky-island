@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,7 +8,38 @@ public class GameManager : MonoBehaviour
 {
     public enum MemoryId { LighthouseKeeper, StormNight, Return }
     public enum CrystalId { Triangle, Circle, Square }
-    public enum ItemId { Triangle, Circle, Square, Pickaxe, KeyBlank, KeyMold, LighthouseKey }
+    public enum ItemId { Triangle, Circle, Square, Pickaxe, KeyBlank, KeyMold, LighthouseKey, Lantern }
+    public bool HasLantern => GetItemCount(ItemId.Lantern) > 0;
+    public bool IsLanternLit { get; private set; }
+    public bool TryCollectLantern()
+    {
+        if (!missionActive || BlocksGameplay || SceneFade.IsRunning || HasLantern ||
+            !HasMemory(MemoryId.LighthouseKeeper) || !HasBackpack ||
+            SceneManager.GetActiveScene().name != "House") return false;
+        items[ItemId.Lantern] = 1;
+        IsLanternLit = false;
+        OnMissionStateChanged?.Invoke();
+        return true;
+    }
+    public bool SetLanternLit(bool lit)
+    {
+        if (!HasLantern || BlocksGameplay || SceneFade.IsRunning || !missionActive) return false;
+        IsLanternLit = lit;
+        OnMissionStateChanged?.Invoke();
+        return true;
+    }
+    public enum ShadowEncounter { Beach, Cave }
+    public bool KnowsStormThreat { get; private set; }
+    public void LearnStormThreat()
+    {
+        if (!missionStarted || KnowsStormThreat) return;
+        KnowsStormThreat = true;
+        OnMissionStateChanged?.Invoke();
+    }
+    private readonly HashSet<ShadowEncounter> shadowEncounters = new HashSet<ShadowEncounter>();
+    public bool HasSeenShadow(ShadowEncounter encounter) => shadowEncounters.Contains(encounter);
+    public bool TryMarkShadowSeen(ShadowEncounter encounter) => !BlocksGameplay &&
+        Enum.IsDefined(typeof(ShadowEncounter), encounter) && shadowEncounters.Add(encounter);
 
     public static GameManager Instance;
 
@@ -16,7 +47,7 @@ public class GameManager : MonoBehaviour
     public bool HasVisitedLocation(string scene) => visitedLocations.Contains(scene);
     public string ObjectiveScene => !HasMissionStarted ? (!HasReadHouseNotice ? "House" : "Island")
         : !HasBackpack ? "House"
-        : !HasMemory(MemoryId.LighthouseKeeper) ? "House"
+        : !HasMemory(MemoryId.LighthouseKeeper) || !HasLantern ? "House"
         : !HasMemory(MemoryId.StormNight) ? "Cave"
         : !HasCollectedKeyMaterials ? "Cave" : !HasLighthouseKey ? "House" : "LighthouseExterior";
     public static bool IsExplorationScene(string name) => name == "Beach" || name == "House" || name == "Island" || name == "Cave" || name == "Lighthouse" || name == "LighthouseExterior";
@@ -236,6 +267,9 @@ public class GameManager : MonoBehaviour
         HasLearnedJournal = false;
         HasSeenBeachIntroduction = false;
         visitedLocations.Clear();
+        shadowEncounters.Clear();
+        KnowsStormThreat = false;
+        IsLanternLit = false;
         recoveredMemories.Clear();
         items.Clear();
         HasCollectedKeyMaterials = false;

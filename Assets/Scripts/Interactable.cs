@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class Interactable : MonoBehaviour
 {
@@ -29,7 +28,6 @@ public class Interactable : MonoBehaviour
     protected virtual void Update()
     {
         CheckDistance();
-        CheckInteraction();
     }
 
     private void CheckDistance()
@@ -49,19 +47,8 @@ public class Interactable : MonoBehaviour
         interactionPrompt.SetActive(canInteract);
 }
 
-    private void CheckInteraction()
-    {
-        if (!canInteract)
-            return;
-
-        if (Keyboard.current == null)
-            return;
-
-        if (Keyboard.current.eKey.wasPressedThisFrame)
-        {
-            Interact();
-        }
-    }
+    // Interações são encaminhadas pelo clique em PlayerClickMovement.
+    // E pertence exclusivamente ao lampião e não abre objetos próximos.
 
     public virtual void Interact()
     {

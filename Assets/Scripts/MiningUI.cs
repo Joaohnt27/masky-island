@@ -1,4 +1,4 @@
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -170,6 +170,7 @@ public class MiningUI : MonoBehaviour
             worldMiningPanel.SetActive(showWorld);
             if (worldMiningText != null) worldMiningText.text = !unlocked
                 ? "Resolva primeiro o bilhete da casa."
+                : miningSpot.IsPreparing ? "Guardando o lampião..."
                 : miningSpot.IsMining ? $"Minerando a rocha... {Mathf.RoundToInt(miningSpot.Progress * 100)}%"
                 : string.IsNullOrEmpty(miningSpot.Result) ? "Clique na rocha para procurar cristais. Nem toda tentativa encontra um."
                 : miningSpot.Result + "\nClique na rocha para continuar.";

@@ -1,0 +1,57 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Collect unlit lantern for animation test
+PASS: Collected lantern starts stored
+PASS: Three rocks
+PASS: E starts equip gesture and locks movement
+PASS: Repeated input cannot restart equip
+PASS: Equip finishes with lamp lit
+PASS: Held idle gently moves lantern
+PASS: Mining first stores and extinguishes lantern
+PASS: Pickaxe waits for stow gesture
+PASS: Pause freezes stow gesture
+PASS: Mining begins after lantern is hidden
+PASS: E cannot equip during mining
+PASS: Cancellation leaves lantern stored and controls released
+PASS: E reequips after mining
+PASS: E also stores manually
+PASS: Can equip before testing early cancellation
+PASS: Cancelling while storing leaves no movement lock or mining routine
+PASS: Mining animation starts
+PASS: Cancellation restores idle and movement
+PASS: Cancelled attempt gives no reward
+PASS: Failed extraction restores idle without reward
+PASS: Rock 0: mining locks movement
+PASS: Rock 0: body mining state active
+PASS: Rock 0: faces chosen rock
+PASS: Rock 0: no duplicate floating tool
+PASS: Rock 0: active attempt cannot retarget
+PASS: Repeated mining click cannot restart attempt
+PASS: Pause freezes body, progress and impact clock
+PASS: Rock 0: attempt completes
+PASS: Rock 0: six body animation poses played
+PASS: Rock 0: crystal enters inventory
+PASS: Rock 0: returns to directional idle
+PASS: Rock 1: mining locks movement
+PASS: Rock 1: body mining state active
+PASS: Rock 1: faces chosen rock
+PASS: Rock 1: no duplicate floating tool
+PASS: Rock 1: active attempt cannot retarget
+PASS: Repeated mining click cannot restart attempt
+PASS: Rock 1: attempt completes
+PASS: Rock 1: six body animation poses played
+PASS: Rock 1: crystal enters inventory
+PASS: Rock 1: returns to directional idle
+PASS: Rock 2: mining locks movement
+PASS: Rock 2: body mining state active
+PASS: Rock 2: faces chosen rock
+PASS: Rock 2: no duplicate floating tool
+PASS: Rock 2: active attempt cannot retarget
+PASS: Repeated mining click cannot restart attempt
+PASS: Rock 2: attempt completes
+PASS: Rock 2: six body animation poses played
+PASS: Rock 2: crystal enters inventory
+PASS: Rock 2: returns to directional idle
+PASS: Successful mining never auto equips lantern
+PASS: Movement unlocked after final extraction
+ALL PASSED

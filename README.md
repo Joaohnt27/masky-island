@@ -1,4 +1,4 @@
-# Masky Island
+﻿# Masky Island
 
 Uma ilha, três lembranças e um farol apagado. Após uma tempestade, um viajante acorda na praia sem lembrar quem é. Explore cenários ilustrados, converse com um estranho e transforme pistas e materiais em um caminho de volta à sua história.
 
@@ -21,16 +21,21 @@ Baixe o ZIP da versão Windows, extraia **todos** os arquivos e execute `MaskyIs
 | Mochila, após coletá-la | I ou ícone da mochila |
 | Mapa, após recebê-lo do NPC | M ou ícone do mapa |
 | Diário, após coletá-lo na praia | J ou ícone do diário |
+| Equipar e acender / guardar o lampião | E |
 | Fechar painel / pausar | Esc |
 | Confirmar ajuste no crafting e no farol | Espaço ou botão do painel |
 | Avançar falas / pular vídeos | Botões indicados na tela |
 
 O mapa permite viajar apenas a lugares já visitados. O diário acompanha os objetivos e risca tarefas concluídas. Não há combate, moedas nem cronômetro global.
 
+A trilha usa `menu_masky.mp3` no menu e `exploracao_masky.mp3` na exploração, em loop e com volume ajustável em Configurações → Áudio → Música.
+
 ## Mecânicas
 
 - Explore a praia, a casa, o centro, a caverna e o farol (exterior e interior).
+- Após o primeiro enigma, a Sombra da Tempestade ronda a praia, a caverna e o exterior do farol. A lembrança indica um lampião junto à lareira da casa: recolha-o apagado e use E para acender sua luz e repelir a Sombra. Ser alcançado devolve o personagem à entrada, preservando itens e enigmas. Casa e centro são seguros.
 - Encontre o diário, conheça o NPC e obtenha mapa, mochila e picareta pelo fluxo da história.
+- O personagem guarda e apaga o lampião antes de minerar. Após a tentativa, pressione E para equipá-lo novamente.
 - Decifre os símbolos da casa; minere três cristais e encaixe-os no altar da caverna.
 - Recolha os materiais do esconderijo e fabrique uma chave com três ações de precisão.
 - Interprete a inscrição do farol, destranque o cadeado e restaure a luz em três ajustes.

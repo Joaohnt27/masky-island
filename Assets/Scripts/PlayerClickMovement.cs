@@ -18,6 +18,18 @@ public class PlayerClickMovement : MonoBehaviour
 
     private Vector3 targetPosition;
     private bool isMoving;
+    public float MoveSpeed => moveSpeed;
+    public Vector2 WalkMin => walkMin;
+    public Vector2 WalkMax => walkMax;
+
+    // Reinicia a aproximação ao retornar a um ponto seguro, sem liberar locks de outras UIs.
+    public void ReturnToSafePoint(Vector3 position)
+    {
+        isMoving = false;
+        targetDoor = null; targetMiningSpot = null; targetInteraction = null;
+        transform.position = position;
+        targetPosition = position;
+    }
     private readonly HashSet<Object> movementLocks = new HashSet<Object>();
     public bool IsMovementEnabled => movementLocks.Count == 0 && !SceneFade.IsRunning &&
         (GameManager.Instance == null || !GameManager.Instance.BlocksGameplay);

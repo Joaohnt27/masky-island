@@ -1,0 +1,43 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Threat initially disabled
+PASS: Threat waits for NPC explanation to finish
+PASS: NPC teaches danger and activates mission
+PASS: NPC center is safe
+PASS: Cave has pursuit component
+PASS: Cave arrival is a safe point (player=(0.00, -3.00, -1.00), safe=(0.00, -3.00, -1.00))
+PASS: No attack inside safe light
+PASS: Leaving safety starts telegraphed encounter
+PASS: Spawn remains far from player
+PASS: Pause freezes pursuit
+PASS: Interactions prevent movement and capture
+PASS: Warning becomes active pursuit
+PASS: Capture returns player to safe point
+PASS: Capture leaves movement enabled
+PASS: Capture preserves inventory and memory
+PASS: No repeated capture at checkpoint
+PASS: Safe light repels approaching shadow
+PASS: New game resets threat knowledge and encounter
+PASS: Panel opens and locks movement
+PASS: Pointer reaches ActivateLighthouse
+PASS: Prepare starts precision challenge
+PASS: Mistimed click does not advance
+PASS: Pause freezes cursor timer and actions
+PASS: Escape cancels and restores movement
+PASS: Timeout retries current stage
+PASS: Target reachable 0
+PASS: Pointer reaches LighthouseAdjust
+PASS: Timed action advances stage 0
+PASS: Repeated action cannot skip stage
+PASS: Timeout preserves completed stage
+PASS: Target reachable 1
+PASS: Timed action advances stage 1
+PASS: Repeated action cannot skip stage
+PASS: Target reachable 2
+PASS: Pointer reaches LighthouseAdjust
+PASS: Timed action advances stage 2
+PASS: Repeated action cannot skip stage
+PASS: Three adjustments restore lighthouse
+PASS: Success starts ending scene
+PASS: Final gameplay video still plays
+ALL PASSED

@@ -59,7 +59,7 @@ public class LighthouseInteraction : Interactable
     {
         if(!isActiveAndEnabled||!CanAct||IsRestoring)return;
         step=0;elapsed=cooldown=0;remaining=stepWindow;
-        feedback="Espere o indicador entrar na faixa dourada e confirme o ajuste.";
+        feedback="A sombra da tempestade voltou. Confirme na faixa dourada: cada ajuste fortalece a luz.";
         restoration=StartCoroutine(Restore());Refresh();
     }
     public void SubmitQteKey(Key key){if(key==Key.Space)SubmitPulse();}
@@ -73,7 +73,7 @@ public class LighthouseInteraction : Interactable
             GameAudio.Play(GameAudio.Cue.Error);Refresh();return;
         }
         step++;elapsed=0;remaining=stepWindow;GameAudio.Play(GameAudio.Cue.Confirm);
-        feedback=step==3?"A luz voltou! A ilha tem um caminho outra vez.":"Ajuste concluído! Prepare-se para a próxima etapa.";
+        feedback=step==3?"A luz voltou! A sombra se desfez e a ilha tem um caminho outra vez.":"A sombra recuou! Prepare o próximo ajuste para fortalecer a luz.";
         Refresh();
     }
     private IEnumerator Restore()

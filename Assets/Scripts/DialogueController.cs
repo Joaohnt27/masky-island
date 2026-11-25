@@ -43,6 +43,10 @@ public class DialogueController : MonoBehaviour
         "Você acordou na praia? Então a ilha trouxe mais alguém de volta.",
         "Aqui, as lembranças se perdem. Mas deixam pistas.",
         "O farol está apagado. Sem sua luz, nenhum barco encontra a saída.",
+        "Cuidado com a Sombra da Tempestade. Ela ronda a praia, a caverna e o caminho do farol. Aqui no centro e dentro da casa você está seguro.",
+        "Um sopro anuncia sua chegada. Quando ela aparecer, afaste-se com W, A, S e D. Você é mais rápido, mas não deixe que ela encoste em você!",
+        "A luz de um lampião pode afastá-la. A inscrição da casa guarda uma lembrança de onde encontrar um. Quando estiver com ele, aperte E para acender ou apagar.",
+        "Se ela alcançar você, a névoa vai levá-lo de volta à entrada. Seus itens continuam com você. Depois de decifrar a inscrição, busque o lampião antes de se aventurar.",
         "Três lembranças podem restaurar sua luz. A primeira está escondida em uma inscrição.",
         "Volte à casa e clique no bilhete sobre a mesa para ler.",
         "Ele conta como o céu muda. Toque nos símbolos seguindo a ordem da pista.",
@@ -63,13 +67,14 @@ public class DialogueController : MonoBehaviour
     };
     private readonly string[] recoveredLines =
     {
-        "Você cuidava da luz... Então o farol já fez parte da sua vida.",
+        "Você cuidava da luz... Então o farol já fez parte da sua vida. O lampião antigo está no chão junto à lareira da casa. Pegue-o e use E para acender a luz.",
         "Siga o caminho à direita até a caverna. A picareta está logo na entrada, à esquerda, encostada nas pedras. Pegue-a antes de clicar nos veios para minerar.",
         "Nem toda tentativa encontra um cristal. Confira os encontrados com I e use as três formas nos encaixes indicados pelas pistas."
     };
     private readonly string[] stormLines =
     {
         "Na noite da tempestade, o farol se apagou... Agora sabemos quando tudo mudou.",
+        "Aquela sombra acompanha as lembranças da tempestade. Não sei se veio do mar ou do que você teme recordar. Restaurar a luz é o nosso caminho.",
         "Os cristais abriram um esconderijo junto ao altar. Recolha a peça de metal e o molde que estão lá.",
         "Leve os materiais à bancada da casa. Você poderá fabricar a chave do farol."
     };
@@ -179,7 +184,11 @@ public class DialogueController : MonoBehaviour
             if (GameManager.Instance != null)
             {
                 GameManager.Instance.StartMission();
-                if (currentDialogue == dialogueLines) GameManager.Instance.ReceiveMapFromNpc();
+                if (currentDialogue == dialogueLines)
+                {
+                    GameManager.Instance.LearnStormThreat();
+                    GameManager.Instance.ReceiveMapFromNpc();
+                }
                 var mission = GameManager.Instance;
                 if (mission.HasJournal && !mission.HasLearnedJournal)
                     ShowThought(new[] {

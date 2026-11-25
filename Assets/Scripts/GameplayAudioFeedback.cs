@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GameplayAudioFeedback : MonoBehaviour
 {
@@ -40,7 +40,7 @@ public class GameplayAudioFeedback : MonoBehaviour
             if (distance >= .55f) { distance = 0; GameAudio.Play(GameAudio.Cue.Footstep); }
         }
         else distance = 0;
-        if (mining != null && mining.IsMining)
+        if (mining != null && mining.IsMining && !mining.IsPreparing)
         {
             int next = mining.ImpactIndex;
             if (next >= 0 && next != strike) { strike = next; GameAudio.Play(GameAudio.Cue.Pickaxe); }

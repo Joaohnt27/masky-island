@@ -1,0 +1,52 @@
+EDITOR NOTE: search index startup exception: ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+PASS: Threat initially disabled
+PASS: Threat waits for NPC explanation to finish
+PASS: NPC teaches danger and activates mission
+PASS: NPC center is safe
+PASS: Lantern cannot be collected before first puzzle
+PASS: First puzzle solved through symbol actions
+PASS: Puzzle gives lantern location clue
+PASS: First memory reveals lantern by fireplace
+PASS: Click ray reaches lantern: HouseLantern
+PASS: Lantern pickup explains E in player dialogue
+PASS: Lantern collected unlit
+PASS: Cannot duplicate lantern
+PASS: Inventory opens after pickup
+PASS: E lights lantern without reopening nearby objects
+PASS: E respects interaction lock
+PASS: E extinguishes lantern
+PASS: Lantern inventory and off state survive scene transition
+PASS: Safe circle removed
+PASS: Shadow appears even at arrival point
+PASS: Shadow spawns away from player
+PASS: Pause freezes pursuit
+PASS: E works during warning
+PASS: Lit lantern repels approaching shadow before capture
+PASS: Unlit lantern does not prevent capture
+PASS: Capture returns player to entrance
+PASS: Capture preserves collected items
+PASS: New game resets lantern and pursuit
+PASS: Panel opens and locks movement
+PASS: Pointer reaches ActivateLighthouse
+PASS: Prepare starts precision challenge
+PASS: Mistimed click does not advance
+PASS: Pause freezes cursor timer and actions
+PASS: Escape cancels and restores movement
+PASS: Timeout retries current stage
+PASS: Target reachable 0
+PASS: Pointer reaches LighthouseAdjust
+PASS: Timed action advances stage 0
+PASS: Repeated action cannot skip stage
+PASS: Timeout preserves completed stage
+PASS: Target reachable 1
+PASS: Timed action advances stage 1
+PASS: Repeated action cannot skip stage
+PASS: Target reachable 2
+PASS: Pointer reaches LighthouseAdjust
+PASS: Timed action advances stage 2
+PASS: Repeated action cannot skip stage
+PASS: Three adjustments restore lighthouse
+PASS: Success starts ending scene
+PASS: Final gameplay video still plays
+ALL PASSED

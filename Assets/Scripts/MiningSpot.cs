@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -67,6 +67,7 @@ public class MiningSpot : MonoBehaviour
     private Coroutine miningRoutine;
     private GameManager mission;
     public bool IsMining { get; private set; }
+    public bool IsPreparing { get; private set; }
     public float Progress { get; private set; }
     public string Result { get; private set; } = "";
     public GameManager.CrystalId SelectedCrystal { get; private set; }
@@ -131,16 +132,20 @@ public class MiningSpot : MonoBehaviour
         if (!CanMine)
             return;
         IsMining = true;
+        IsPreparing = true;
         Progress = 0f;
         Result = "Procurando cristais na rocha...";
         player.AcquireMovementLock(this);
         miningRoutine = StartCoroutine(Mine());
-        onMiningStarted.Invoke();
     }
 
     private IEnumerator Mine()
     {
         GameManager.CrystalId crystal = SelectedCrystal;
+        var lantern = FindAnyObjectByType<PlayerLantern>();
+        if (lantern != null) yield return lantern.StowForMining();
+        IsPreparing = false;
+        onMiningStarted.Invoke();
         float elapsed = 0f;
         while (elapsed < miningDuration)
         {
@@ -190,6 +195,7 @@ public class MiningSpot : MonoBehaviour
     private void FinishAttempt()
     {
         IsMining = false;
+        IsPreparing = false;
         if (player != null)
             player.ReleaseMovementLock(this);
         onMiningFinished.Invoke();

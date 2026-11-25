@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 // Usa deslocamento real: funciona com WASD e aproximação por clique, sem alterar a movimentação.
 [RequireComponent(typeof(PlayerClickMovement), typeof(Animator), typeof(SpriteRenderer))]
@@ -16,7 +16,7 @@ public class PlayerSpriteAnimation : MonoBehaviour
     private int currentState;
     public Direction Facing { get; private set; } = Direction.Front;
     public bool IsWalking { get; private set; }
-    public bool IsMiningAnimation => isActiveAndEnabled && miningSpot != null && miningSpot.IsMining &&
+    public bool IsMiningAnimation => isActiveAndEnabled && miningSpot != null && miningSpot.IsMining && !miningSpot.IsPreparing &&
         animator != null && animator.runtimeAnimatorController != null &&
         animator.HasState(0, miningSpot.FacesLeft ? MineLeft : MineRight);
     private static readonly int MineLeft = Animator.StringToHash("Base Layer.MineLeft");

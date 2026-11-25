@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 // Mantém a ferramenta antiga como alternativa quando não há animação de mineração.
 public class MiningWorldFeedback : MonoBehaviour
@@ -18,7 +18,7 @@ public class MiningWorldFeedback : MonoBehaviour
     }
     private void LateUpdate()
     {
-        bool active = spot != null && spot.IsMining;
+        bool active = spot != null && spot.IsMining && !spot.IsPreparing;
         if (pickaxe != null)
         {
             bool separateTool = active && (playerAnimation == null || !playerAnimation.IsMiningAnimation);

@@ -1,4 +1,4 @@
-using System.Text;
+﻿using System.Text;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -65,6 +65,7 @@ public class QuestJournalUI : MonoBehaviour
         if(mission.HasReadHouseNotice||mission.HasMissionStarted)Add("Falar com o trabalhador no centro.",mission.HasMissionStarted);
         if(mission.HasMissionStarted)Add("Buscar a mochila na casa.",mission.HasBackpack);
         if(mission.HasBackpack)Add("Decifrar os símbolos do bilhete.",first);
+        if(first)Add("Buscar o lampião junto à lareira. Usar E.",mission.HasLantern);
         if(first)Add("Pegar a picareta na entrada da caverna.",mission.HasPickaxe);
         if(first&&mission.HasPickaxe)Add("Encontrar os três cristais na caverna.",mission.CrystalCount>=3);
         if(mission.CrystalCount>=3)Add("Usar os cristais nos encaixes do altar.",storm);
